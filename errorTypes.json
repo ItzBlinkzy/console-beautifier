@@ -1,0 +1,11 @@
+{
+    "Error": [255, 255, 255],
+    "EvalError": [230, 100, 150],
+    "ReferenceError": [34, 139, 34],
+    "RangeError": [255, 106, 0],
+    "TypeError": [255, 248, 87],
+    "SyntaxError": [0, 115, 255],
+    "URIError": [236, 71, 233],
+    "AggregateError": [255, 255, 0],
+    "InternalError": [180, 165, 255]
+}

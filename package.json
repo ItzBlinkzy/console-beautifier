@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A simple console beautifier which makes the node.js console output look cleaner upon",
   "main": "Beautifier.js",
-  "keywords": ["beautifier", "console", "prettifier"],
+  "keywords": [
+    "beautifier",
+    "console",
+    "prettifier"
+  ],
   "author": "Blinkzy#3819 + Supra#6561",
   "license": "ISC",
   "dependencies": {
