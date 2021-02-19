@@ -11,7 +11,7 @@ class ErrorBeautifier {
 
     Beautify() {
         const pathRegex = /\(.+\)/gmi
-        let [r, g, b] = errorTypes[this.errorType] ?? [255, 255, 255]
+        let [r, g, b] = errorTypes[this.errorType] || [255, 255, 255]
 
         let stack1 = this.stack.split("\n")
         stack1 = stack1.splice(1, stack1.length).map(el => el.trim()).join("\n").replace(/\(.+\)|at/gmi, "").split("\n")
