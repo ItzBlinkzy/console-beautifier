@@ -14,5 +14,9 @@
     "align-text": "^1.0.2",
     "axios": "^0.21.1",
     "chalk": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzBlinkzy/console-beautifier.git"
   }
 }
