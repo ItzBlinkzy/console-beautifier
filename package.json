@@ -1,6 +1,6 @@
 {
   "name": "console-beautifier",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple console beautifier which makes the node.js console output look cleaner upon",
   "main": "Beautifier.js",
   "keywords": [
