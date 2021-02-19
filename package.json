@@ -1,0 +1,14 @@
+{
+  "name": "console-beautifier",
+  "version": "1.0.0",
+  "description": "A simple console beautifier which makes the node.js console output look cleaner upon",
+  "main": "Beautifier.js",
+  "keywords": ["beautifier", "console", "prettifier"],
+  "author": "Blinkzy#3819 + Supra#6561",
+  "license": "ISC",
+  "dependencies": {
+    "align-text": "^1.0.2",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0"
+  }
+}
