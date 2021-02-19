@@ -27,7 +27,7 @@ v1.0.0
 All you need to do to start using this module is the following:
 
 1. Install it to your project folder using `npm i console-beautifier`
-2. Require it in your files `const console-beautifier = require("console-beautifier")`
+2. Require it in your files `const consoleBeautifier = require("console-beautifier")`
 3. You're good to go!
 
 ## Support
