@@ -1,5 +1,5 @@
 {
-  "name": "console-beautifier",
+  "name": "error-beautifier",
   "version": "1.0.5",
   "description": "A simple console beautifier which makes the node.js console output look cleaner upon",
   "main": "Beautifier.js",

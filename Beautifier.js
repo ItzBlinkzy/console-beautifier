@@ -1,6 +1,7 @@
 const errorTypes = require("./errorTypes.json")
 const chalk = require("chalk")
 const align = require("align-text")
+
 class ErrorBeautifier {
     constructor(error) {
         this.errorType = error.constructor.name;
@@ -26,16 +27,16 @@ class ErrorBeautifier {
             }
         })
 
-        return chalk.rgb(r, g, b).bold(("\n" + this.errorType + " @ " + this.timeFired + ": ")) + chalk.rgb(255, 75, 75).bold(this.message) + "\n\n" + chalk.rgb(255, 255, 255).underline("Stack Trace:\n") + chalk.cyanBright(newStack.join("\n") + "\n")
+        console.log(chalk.rgb(r, g, b).bold(("\n" + this.errorType + " @ " + this.timeFired + ": ")) + chalk.rgb(255, 75, 75).bold(this.message) + "\n\n" + chalk.rgb(255, 255, 255).underline("Stack Trace:\n") + chalk.cyanBright(newStack.join("\n") + "\n"))
     }
 }
 
 process.on("unhandledRejection", (err) => {
-    console.log(new ErrorBeautifier(err).Beautify())
+    new ErrorBeautifier(err).Beautify()
 })
 
 process.on("uncaughtException", (err) => {
-    console.log(new ErrorBeautifier(err).Beautify())
+    new ErrorBeautifier(err).Beautify()
 })
 
 module.exports.ErrorBeautifier = ErrorBeautifier;
