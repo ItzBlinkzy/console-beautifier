@@ -1,17 +1,17 @@
-# console-beautifier                 
+# error-beautifier                 
 
-This repository hosts the code for the console-beautifier module.
+This repository hosts the code for the error-beautifier module.
 This code, as of v1.0.0 includes:
 
 - A neat way of displaying errors.
 
 # Table of contents
 
-- [Change Log](https://github.com/ItzBlinkzy/console-beautifier/#change-log)
-- [Installation and setup](https://github.com/ItzBlinkzy/console-beautifier/#installation-and-setup)
-- [Support](https://github.com/ItzBlinkzy/console-beautifier/#support)
-- [Contributing](https://github.comItzBlinkzy/console-beautifier/#contributing)
-- [Acknowledgements](https://github.com/ItzBlinkzy/console-beautifier/#acknowledgements)
+- [Change Log](https://github.com/ItzBlinkzy/error-beautifier/#change-log)
+- [Installation and setup](https://github.com/ItzBlinkzy/error-beautifier/#installation-and-setup)
+- [Support](https://github.com/ItzBlinkzy/error-beautifier/#support)
+- [Contributing](https://github.comItzBlinkzy/error-beautifier/#contributing)
+- [Acknowledgements](https://github.com/ItzBlinkzy/error-beautifier/#acknowledgements)
 
 ## Change Log
 
@@ -26,8 +26,8 @@ v1.0.0
 
 All you need to do to start using this module is the following:
 
-1. Install it to your project folder using `npm i console-beautifier`
-2. Require it in your files `const consoleBeautifier = require("console-beautifier")`
+1. Install it to your project folder using `npm i error-beautifier`
+2. Require it in your files `const errorBeautifier = require("error-beautifier")`
 3. You're good to go!
 
 ## Support
@@ -39,7 +39,7 @@ If you need help with anything, feel free to open a new issue. Note that if the 
 1. Feel free to Fork & Clone the repository and make sure that it is on the __master branch__ as that branch is the most up to date one and the most stable.
 2. Run `npm install` in the project folder.
 3. Make the changes that you want to propose and code whatever you want!
-4. Make sure that everything is good shape and then feel free to create a [Pull Request](https://github.com/ItzBlinkzy/console-beautifier/compare) which will be reviewed.
+4. Make sure that everything is good shape and then feel free to create a [Pull Request](https://github.com/ItzBlinkzy/error-beautifier/compare) which will be reviewed.
 
 ## Acknowledgements
 
